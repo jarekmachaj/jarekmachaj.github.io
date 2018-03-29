@@ -13,3 +13,5 @@ service pilight restart
 
 su -c "screen -dmS homebridge /opt/nodejs/bin/homebridge"  -s /bin/sh pi
 exit 0
+
+
