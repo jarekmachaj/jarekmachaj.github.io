@@ -1,1 +1,15 @@
 https://hackernoon.com/diy-home-automation-fan-control-with-raspberry-pi-3-rf-transmitter-and-homebridge-59ad24845770
+https://manual.pilight.org/installation.html
+
+#####RC.local
+# Print the IP address
+_IP=$(hostname -I) || true
+if [ "$_IP" ]; then
+  printf "My IP address is %s\n" "$_IP"
+fi
+
+sleep 10
+service pilight restart
+
+su -c "screen -dmS homebridge /opt/nodejs/bin/homebridge"  -s /bin/sh pi
+exit 0
