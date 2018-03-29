@@ -15,3 +15,4 @@ su -c "screen -dmS homebridge /opt/nodejs/bin/homebridge"  -s /bin/sh pi
 exit 0
 
 
+WEB API!!! (REST)
