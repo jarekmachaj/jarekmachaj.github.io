@@ -2,6 +2,7 @@
 layout: post
 title: How to check ubuntu version
 ---
+
 ```bash
 jarek@jarvis:~$ lsb_release -a
 No LSB modules are available.
