@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fixing build error: It was not possible to find any compatible framework version
+title: Fixing build error - It was not possible to find any compatible framework version
 ---
 
 Full error:
